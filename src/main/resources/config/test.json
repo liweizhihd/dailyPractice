@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "name": "5600",
+      "maxCapacity": "1000",
+      "usedCapacity": "640"
+    },
+    {
+      "name": "7600",
+      "maxCapacity": "1000",
+      "usedCapacity": "340"
+    },
+    {
+      "name": "VSAN",
+      "maxCapacity": "1000",
+      "usedCapacity": "540"
+    },
+    {
+      "name": "XIO",
+      "maxCapacity": "1000",
+      "usedCapacity": "870"
+    }
+  ]
+}
