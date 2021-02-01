@@ -1,0 +1,14 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /iat
+
+spring:
+  application:
+    name: audio2text
+
+audio2text:
+  hostUrl: https://iat-api.xfyun.cn/v2/iat
+  appid: xx
+  apiSecret: xx
+  apiKey: xx

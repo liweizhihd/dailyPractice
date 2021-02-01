@@ -1,0 +1,27 @@
+debug: true
+
+server:
+  port: 8888
+  servlet:
+    context-path: /ww
+
+spring:
+  application:
+    name: wechar-wrapper
+
+# 开发环境开发微信公众号配置
+wx:
+  mp:
+    configs:
+      - appId: xx
+        secret: xx
+        token: xx
+        aesKey: xx
+
+aliyun:
+  audio:
+    bucketName: xx
+    endpoint: xx
+    accessKeyID: xx
+    accessKeySecret: xx
+    cdnUrl: xx

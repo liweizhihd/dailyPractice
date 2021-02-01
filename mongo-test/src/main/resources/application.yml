@@ -1,0 +1,17 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /mongo
+
+spring:
+  application:
+    name: mongo-test
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/weizhi?readPreference=primary&ssl=false
+
+logging:
+  level:
+    org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+
